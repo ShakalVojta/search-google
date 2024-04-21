@@ -3,7 +3,8 @@ async function searchGoogle() {
   const cx = "a492048531b354e1b";
   const apiKey = "AIzaSyDxWz8z8ZtoakgbaLpTt3M0ywfZXFue6Bc";
 
-  const url = `https://www.googleapis.com/customsearch/v1?q=${encodeURIComponent(query)}&start=1&lr=lang_cs&cx=${cx}&key=${apiKey}&sort=date&filter=1&gl=cs&hl=cs&num=10&source=gcsc&as_oq=&as_sitesearch=&exp=&callback=
+  const url = `https://www.googleapis.com/customsearch/v1?q=${encodeURIComponent(query)}&start=1&lr=lang_cs&cx=${cx}&key=${apiKey}&filter=1&gl=cs&hl=cs&num=10
+
   `;
   console.log(url);
   try {
