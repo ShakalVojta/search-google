@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Google Search Scraper</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <input type="text" id="searchQuery" placeholder="Zadejte hledaný výraz">
+            <button onclick="searchGoogle()">Hledat</button>
+            <button onclick="clearSearch()">Smazat</button>
+            <button onclick="downloadSearchResults()">Stáhnout výsledky</button>
+        </div>
+        <div class="results">
+            <ul id="searchResults"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
